@@ -28,7 +28,7 @@ export default function Hero() {
         </div>
 
         {/* Mobile: Start A Project */}
-        <div className=" sm:hidden mt-6 flex justify-center">
+        <div className="a sm:hidden mt-6 flex justify-center">
           <Button btnText="Start A Project" />
         </div>
       </div>

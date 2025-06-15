@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="absolute top-0 left-0 right-0 flex justify-between items-center  px-4 sm:px-6 pt-4 z-50 text-white">
-        <h1 className="text-xl font-bold text-green-600">
+        <h1 className="text-xl font-bold ">
           <BiLogoGitlab size={40} className="sm:w-[50px] sm:h-[50px]" />
         </h1>
         <ul className="hidden md:flex gap-8 lg:gap-24 font-bold cursor-pointer">

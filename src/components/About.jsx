@@ -12,7 +12,7 @@ const About = () => {
             <div className="w-full px-4 sm:px-6 md:px-0">
               <h1 className="font-nasalizationg text-white text-left space-y-2 md:space-y-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight md:leading-snug font-extrabold tracking-wide uppercase">
                 <span className="block">We are forging</span>
-                <span className="block tracking-[4px] sm:tracking-[10px]">
+                <span className="block tracking-[4px] sm:tracking-[8px]">
                   the future of
                 </span>
                 <span className="block tracking-[6px] sm:tracking-[12px]">
