@@ -7,16 +7,17 @@
   font-style: normal;
 }
 
-/* Tailwind Import */
+html {
+  scroll-behavior: smooth;
+}
+
 @import "tailwindcss";
 
-/* Native keyframes (optional if using CSS directly) */
 @keyframes spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
 
-/* Theme Variables (optional use with CSS vars or Tailwind plugin) */
 @theme {
   --color-primary: #00f7ff;
   --color-accent: #ff005c;
@@ -26,9 +27,8 @@
   --animate-spin-slow: spin 12s linear infinite;
 }
 
-/* Custom Utilities Layer */
 @layer utilities {
-  /* Wiggle Animation */
+
   @keyframes wiggle {
     0%, 100% { transform: rotate(-10deg);}
     50% { transform: rotate(10deg);}
@@ -37,18 +37,7 @@
     animation: wiggle 0.5s ease-in-out;
   }
 
-  /* Float Animation */
-  /* @keyframes float {
-    0%, 100% {
-      transform: translate(-50%, -52%);
-    }
-    50% {
-      transform: translate(-50%, -48%);
-    }
-  }
-  .animate-float {
-    animation: float 6s ease-in-out infinite;
-  } */
+ 
    @keyframes float {
   0%, 100% {
     transform: translate(-50%, -52%) rotate(0deg);
@@ -68,6 +57,3 @@
 }
 
 }
-
-
-/* Astigmatic font name */

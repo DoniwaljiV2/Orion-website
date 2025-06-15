@@ -6,9 +6,8 @@ const About = () => {
   return (
     <section className="w-full min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-12 lg:px-24 py-16 sm:py-20 lg:mt-40 bg-black relative">
       <div className="max-w-[1440px] w-full">
-        {/* First Section */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 mb-16 lg:mb-24">
-          {/* Heading Section */}
+
           <div className="lg:col-span-2 flex items-center">
             <div className="w-full px-4 sm:px-6 md:px-0">
               <h1 className="font-nasalizationg text-white text-left space-y-2 md:space-y-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight md:leading-snug font-extrabold tracking-wide uppercase">
@@ -42,7 +41,6 @@ const About = () => {
           </div>
         </div>
 
-        {/* Second Section */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 items-center">
           <div className="lg:col-span-2 order-2 lg:order-1 flex justify-center lg:justify-start">
             <div className="flex flex-col justify-center text-white text-left sm:text-center lg:text-left space-y-4 sm:space-y-6 max-w-xl px-4 sm:px-6 md:px-0">
@@ -53,10 +51,10 @@ const About = () => {
               <p className="text-gray-400 leading-relaxed text-sm sm:text-base">
                 Collaboration and innovation drive us forward as we help clients
                 navigate the evolving digital landscape with confidence and
-                creativity.
+                creativity.a
               </p>
               <div className="flex justify-center lg:justify-start mt-6 sm:mt-0">
-                <Button btnText="Our Vision" />
+                <Button btnText="About Us" />
               </div>
             </div>
           </div>

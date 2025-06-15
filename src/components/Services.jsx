@@ -15,7 +15,7 @@ const services = [
   },
   {
     icon: SiGooglecloudstorage,
-    title: "Software /Disaster Recovery/Infrastructure",
+    title: "Software Disaster Recovery Infrastructure",
     description:
       "Experience the power of the cloud with comprehensive suite of Cloud Services.",
     buttonText: "See More",
@@ -38,13 +38,13 @@ const services = [
 
 const ServicesSection = () => (
   <div className="w-full min-h-screen relative bg-black text-white py-12 sm:py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
-    {/* Top Black Gradient Overlay */}
+
     <div className="pointer-events-none absolute top-0 left-0 w-full h-24 bg-gradient-to-b from-black via-black/80 to-transparent z-10" />
-    {/* Bottom Black Gradient Overlay */}
+   
     <div className="pointer-events-none absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-black via-black/80 to-transparent z-10" />
-    {/* Background Gradient Effects */}
-    <div className="pointer-events-none absolute top-10 right-0 w-40 h-40 sm:w-64 sm:h-64 bg-gradient-to-br from-blue-200 via-green-300 to-transparent opacity-60 blur-2xl rounded-full z-0" />
-    <div className="pointer-events-none absolute bottom-4 left-4 sm:left-16 w-40 h-40 sm:w-64 sm:h-64 bg-gradient-to-tl from-green-300 via-blue-200 to-transparent opacity-50 blur-3xl rounded-full z-0" />
+
+    <div className="pointer-events-none absolute top-10 right-0 w-40 h-40 sm:w-64 sm:h-64 bg-gradient-to-br from-blue-200 via-green-600 to-transparent opacity-60 blur-2xl rounded-full z-0" />
+    <div className="pointer-events-none absolute bottom-4 left-4 sm:left-16 w-40 h-40 sm:w-64 sm:h-64 bg-gradient-to-tl from-green-600 via-blue-200 to-transparent opacity-50 blur-3xl rounded-full z-0" />
 
     <div className="relative max-w-7xl mx-auto z-20">
       <div className="mb-12 sm:mb-16 text-center sm:text-left">
@@ -67,24 +67,22 @@ const ServicesSection = () => (
                 hover:border-green-400 
                 hover:shadow-[0_0_30px_rgba(34,197,94,0.3)]"
             >
-              {/* Icon */}
+             
               <div className="mb-4 sm:mb-6">
                 <div className="w-14 h-14 sm:w-14 sm:h-14 rounded-full flex items-center justify-center border-gray-500 border-4 bg-white">
-                  <IconComponent size={24} className="sm:w-[28px] sm:h-[28px] text-green-950" />
+                  <IconComponent size={24} className="sm:w-[28px] sm:h-[28px] text-green-600" />
                 </div>
               </div>
 
-              {/* Title */}
+             
               <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4 leading-tight min-h-[3rem] sm:min-h-[3.5rem]">
                 {service.title}
               </h3>
 
-              {/* Description */}
               <p className="text-gray-200/70 text-sm leading-relaxed mb-3 sm:mb-4 flex-grow">
                 {service.description}
               </p>
 
-              {/* Button */}
               <div className="mt-2 flex justify-center sm:justify-center">
                 <Button btnText={service.buttonText} />
               </div>
