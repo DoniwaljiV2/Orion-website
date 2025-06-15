@@ -6,8 +6,8 @@ import { Button } from './Button/Button'
 export const AboutUs = () => {
   return (
     <div
-      className="min-h-screen relative flex flex-col items-center justify-center gap-6 sm:gap-8 px-4 py-16 bg-cover bg-no-repeat bg-center"
-      style={{ backgroundImage: "url('/src/assets/images/background2.jpg')" }}
+      className="min-h-screen relative flex flex-col items-center justify-center gap-6 sm:gap-8 px-4 py-16 bg-cover bg-no-repeat bg-center bg-[url('/src/assets/images/background2.jpg')]"
+      
     >
 
       <div className="pointer-events-none absolute top-0 left-0 w-full h-40 bg-gradient-to-b from-black via-black/80 to-transparent z-10" />
