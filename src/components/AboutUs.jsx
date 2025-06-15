@@ -1,38 +1,3 @@
-// import React from 'react'
-// import { Button } from './Button/Button'
-
-// export const AboutUs = () => {
-//   return (
-//     <div className='flex flex-col items-center justify-between gap-10 mt-40 mb-40'>
-//             <h2 className='font-bold text-3xl font-nasalizationg uppercase'>About Us</h2>
-//             <h1 className=' font-nasalizationg text-white space-y-2 md:space-y-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight md:leading-snug font-extrabold tracking-[5px] uppercase '>WE ARE MORE THAN JUST CODE</h1>
-//             <Button btnText="About Us"/>
-//     </div>
-//   )
-// }
-
-
-// import React from 'react'
-// import { Button } from './Button/Button'
-
-// export const AboutUs = () => {
-//   return (
-//     <div className="h-screen relative flex flex-col items-center justify-center gap-8 overflow-hidden">
-     
-//       <div className="pointer-events-none absolute top-0 right-0 w-72 h-72 bg-gradient-to-br from-blue-200 via-green-300 to-transparent opacity-60 blur-2xl rounded-full z-0" />
-    
-//       <div className="pointer-events-none absolute bottom-0 left-10 w-72 h-72 bg-gradient-to-tl from-green-300 via-blue-200 to-transparent opacity-50 blur-3xl rounded-full z-0" />
-
-//       <h2 className="font-bold text-3xl font-nasalizationg uppercase z-10">About Us</h2>
-//       <h1 className="font-nasalizationg text-white space-y-2 md:space-y-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight md:leading-snug font-extrabold tracking-[5px] uppercase z-10">
-//         WE ARE MORE THAN JUST CODE
-//       </h1>
-//       <div className="z-10">
-//         <Button btnText="About Us" />
-//       </div>
-//     </div>
-//   )
-// }
 
 import React from 'react'
 import { Button } from './Button/Button'
